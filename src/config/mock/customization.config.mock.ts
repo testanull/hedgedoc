@@ -15,9 +15,9 @@ export default registerAs(
       customLogo: '',
     },
     specialUrls: {
-      privacy: '/test/privacy',
-      termsOfUse: '/test/termsOfUse',
-      imprint: '/test/imprint',
+      privacy: 'https://md.example.org/test/privacy',
+      termsOfUse: 'https://md.example.org/test/termsOfUse',
+      imprint: 'https://md.example.org/test/imprint',
     },
   }),
 );

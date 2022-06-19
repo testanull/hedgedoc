@@ -10,7 +10,7 @@ import { ExternalServicesConfig } from '../external-services.config';
 export default registerAs(
   'externalServicesConfig',
   (): ExternalServicesConfig => ({
-    plantUmlServer: 'plantuml.example.com',
-    imageProxy: 'imageProxy.example.com',
+    plantUmlServer: 'https://plantuml.example.com',
+    imageProxy: 'https://imageProxy.example.com',
   }),
 );

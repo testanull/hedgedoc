@@ -11,8 +11,8 @@ import { Loglevel } from '../loglevel.enum';
 export default registerAs(
   'appConfig',
   (): AppConfig => ({
-    domain: 'md.example.com',
-    rendererOrigin: 'md-renderer.example.com',
+    domain: 'https://md.example.com',
+    rendererOrigin: 'https://md-renderer.example.com',
     port: 3000,
     loglevel: Loglevel.ERROR,
   }),
