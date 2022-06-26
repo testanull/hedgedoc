@@ -150,7 +150,7 @@ export class AuthService {
 
   async getTokensByUser(user: User): Promise<AuthToken[]> {
     const tokens = await this.authTokenRepository.find({
-      where: { user: Equal(user) },
+      where: { user: { id: user.id } },
     });
     if (tokens === null) {
       return [];
